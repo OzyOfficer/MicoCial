@@ -135,6 +135,6 @@ gulp.task("clear", function (){
 
 gulp.task("default", gulp.parallel("watch", "html", "css", "js", "files", "fonts", "images", "browser-sync"))
 
-gulp.task("removeDist", function () {
+gulp.task("removedist", function () {
     return del("dist")
 })
